@@ -59,3 +59,75 @@ const difference = 45 -33;
 
 //12
 const product = 8 * 10;
+
+//13
+const quotient = 66 /33;
+
+//14
+let myVar = 87;
+myVar++ ;
+
+//15
+let myVar1 = 11;
+myVar1--;
+
+//16
+const ourDecimal = 5.7;
+const myDecimal = 5.7;
+
+//17
+const product1 = 2.0 * 2.5;
+
+//18
+const quotient1 = 4.4 / 2.0;
+
+//19
+const remainder = 11 % 3;
+
+//20
+let a = 3;
+let b = 17;
+let c = 12;
+
+a +=  12;
+b += 9 ;
+c += 7;
+
+//21
+let a = 11;
+let b = 9;
+let c = 3;
+
+a -= 6;
+b -=  15;
+c -=  1;
+
+//22
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+a *=  5;
+b *=  3;
+c *=  10;
+
+//23
+let a = 48;
+let b = 108;
+let c = 33;
+
+a /=  12;
+b /=  4;
+c /=  11;
+
+//24
+const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; 
+
+//25
+const myStr1 = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+//26
+const myStr2 = "FirstLine\n\t\\SecondLine\nThirdLine";
+
+//27
+const myStr3 = "This is the start."+" This is the end.";
