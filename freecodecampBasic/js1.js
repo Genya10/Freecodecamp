@@ -131,3 +131,8 @@ const myStr2 = "FirstLine\n\t\\SecondLine\nThirdLine";
 
 //27
 const myStr3 = "This is the start."+" This is the end.";
+
+//28
+let myStr4='This is the first sentence.';
+myStr += ' This is the second sentence.';
+
