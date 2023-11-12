@@ -85,13 +85,13 @@ const quotient1 = 4.4 / 2.0;
 const remainder = 11 % 3;
 
 //20
-let a = 3;
-let b = 17;
-let c = 12;
+let one = 3;
+let two = 17;
+let three = 12;
 
-a +=  12;
-b += 9 ;
-c += 7;
+one +=  12;
+two += 9 ;
+three += 7;
 
 //21
 let a = 11;
