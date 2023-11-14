@@ -83,3 +83,40 @@ myArray8.unshift(["Paul", 35]);
 
 //19
 const myList = [["chair",10],["couch",2],["table",4],["closet",3],["door",3]];
+
+//20
+function reusableFunction(){
+  console.log('Hi World')
+}
+reusableFunction()
+
+//21
+function  functionWithArgs(arg1,arg2){
+  console.log(arg1+arg2)
+ }
+ functionWithArgs(5,7)
+
+ //23
+ function timesFive(num){
+  return num * 5;
+}
+timesFive(5);
+
+//24
+let myGlobal = 10;
+
+function fun1() {
+oopsGlobal =5;
+}
+
+function fun2() {
+  let output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+fun2();
