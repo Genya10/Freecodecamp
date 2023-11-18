@@ -44,3 +44,27 @@ function nextInLine(arr, item) {
   console.log("Before: " + JSON.stringify(testArr));
   console.log(nextInLine(testArr, 6));
   console.log("After: " + JSON.stringify(testArr));
+
+  //6
+  function welcomeToBooleans() {
+    return true; 
+  }
+
+  //7
+  function trueOrFalse(wasThatTrue) {
+     if(wasThatTrue){
+       return "Yes, that was true";
+     }else{
+       return "No, that was false";
+     }  
+  }
+
+  //8
+  function testEqual(val) {
+    if (val==12) { 
+      return "Equal";
+    }
+    return "Not Equal";
+  } 
+  testEqual(10);
+
