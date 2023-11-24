@@ -183,3 +183,82 @@ function testElse(val) {
   }
   
   isLess(10, 15);
+
+  //11
+  function abTest(a, b) {
+  
+  if(a< 0 || b < 0){
+    console.log(undefined);
+  }else{
+     console.log( Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2)));
+  }
+   
+  }
+  
+  abTest(2,2);
+  abTest(2,8);
+  abTest(-2,2);
+
+  //12
+  let count = 0;
+
+  function cc(card) {
+    switch (card) {
+      case 2:
+      case 3:
+      case 4:
+      case 5:
+      case 6:
+        count++;
+        break;
+      case 10:
+      case "J":
+      case "Q":
+      case "K":
+      case "A":
+        count--;
+        break;
+    }
+    let string = "Hold";
+    if (count > 0) {
+      string = "Bet";
+    }
+    return count + " " + string;
+  }
+
+  //13
+  const myDog = {
+  name:"Jack",
+  legs:4,
+  tails:1,
+ friends:['Bobic','Tusic']
+  };
+
+  //14
+  const testObj = {
+    "hat": "ballcap",
+    "shirt": "jersey",
+    "shoes": "cleats"
+  };
+  const hatValue = testObj.hat;     
+  const shirtValue = testObj.shirt;  
+
+  //15
+  const testObj1 = {
+    "an entree": "hamburger",
+    "my side": "veggies",
+    "the drink": "water"
+  };
+  
+  const drinkValue = testObj1["the drink"]; 
+
+  //16
+  const testObj2 = {
+    12: "Namath",
+    16: "Montana",
+    19: "Unitas"
+  };
+  const playerNumber = 16;
+  const player = testObj2[playerNumber];  
+  console.log(player);
+
