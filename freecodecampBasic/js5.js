@@ -114,3 +114,36 @@ const myPlants = [
 const secondTree = myPlants[1].list[1];
 
 //9
+const myArray = [];
+let i = 5;
+while( 0 <= i){
+  myArray.push(i);
+  i--
+}
+
+//10
+const myArray1 = [];
+for(let i =1;i <= 5;i++){
+  myArray1.push(i)
+}
+
+//11
+const myArray2 = [];
+for(let i =1;i <= 9;i +=2 ){
+  myArray.push(i)
+}
+
+//12
+const myArray3 = [];
+for(let i = 9; 0 <= i; i -=2){
+  myArray.push(i);
+}
+
+//13
+const myArr = [2, 3, 4, 5, 6];
+let total = 0;
+for(let i = 0; i < myArr.length; i++){
+  total += myArr[i];
+  console.log(total)
+}
+console.log(total)
