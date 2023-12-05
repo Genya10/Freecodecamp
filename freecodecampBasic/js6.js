@@ -68,3 +68,68 @@ function checkSign(num) {
  }
  
  console.log(convertToInteger("10011"))
+
+
+ //8
+ function randomFraction() {
+  return Math.random();
+}
+
+//9
+function randomWholeNum() {
+  return Math.floor(Math.random()*10);
+}
+
+//10
+function randomRange(myMin, myMax) {
+  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+}
+console.log(randomRange(1,10))
+
+//11
+// Setup
+const contacts = [
+  {
+    firstName: "Akira",
+    lastName: "Laine",
+    number: "0543236543",
+    likes: ["Pizza", "Coding", "Brownie Points"],
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    number: "0994372684",
+    likes: ["Hogwarts", "Magic", "Hagrid"],
+  },
+  {
+    firstName: "Sherlock",
+    lastName: "Holmes",
+    number: "0487345643",
+    likes: ["Intriguing Cases", "Violin"],
+  },
+  {
+    firstName: "Kristian",
+    lastName: "Vos",
+    number: "unknown",
+    likes: ["JavaScript", "Gaming", "Foxes"],
+  },
+];
+
+function lookUpProfile(name, prop) {
+  // Only change code below this line
+  for (let i = 0; i < contacts.length; i++) {
+    if (contacts[i].firstName === name) {
+      if (contacts[i][prop] !== undefined) {
+        return contacts[i][prop];
+      } else {
+        return "No such property";
+      }
+    }
+  }
+  return "No such contact";
+}
+
+console.log(lookUpProfile("Akira", "likes"));
+console.log(lookUpProfile("Gooop", "likes"));
+console.log(lookUpProfile("Akira", "asdf"));
+console.log(lookUpProfile("Sherlock", "asdf"));
