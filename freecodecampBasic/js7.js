@@ -55,3 +55,15 @@ const recordCollection = {
   
 }
 console.log(countdown(8));
+
+function countdown1(n){
+  if (n < 1) {
+  return []; // базовый случай: возвращаем пустой массив, если n меньше 1
+} else {
+  const countArray = countdown1(n - 1); // рекурсивный случай: вызываем саму себя с уменьшенным n
+  countArray.push(n); // добавляем текущее значение n в массив
+  return countArray; // возвращаем массив
+}
+
+}
+console.log(countdown1(10));
